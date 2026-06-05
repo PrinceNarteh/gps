@@ -1,0 +1,6 @@
+# allowBuilds:
+#   '@nestjs/core': true
+#   unrs-resolver: true
+
+# Allow all dependencies to run build/post-install scripts automatically
+dangerouslyAllowAllBuilds: true
