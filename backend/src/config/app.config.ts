@@ -1,7 +1,7 @@
-import { Configuration, Value } from "@itgorillaz/configify";
+import { Configuration, Value } from '@itgorillaz/configify';
 
 @Configuration()
 export class AppConfig {
-  @Value("APP_PORT", { parse: (value: string) => parseInt(value) })
-  port: number
+  @Value('APP_PORT', { parse: parseInt })
+  port: number;
 }
