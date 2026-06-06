@@ -14,4 +14,6 @@ export class AuthService {
       throw new InternalServerErrorException('internal server error');
     }
   }
+
+  private generateToken(user: User) {}
 }
